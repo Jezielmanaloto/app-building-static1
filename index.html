@@ -24,23 +24,29 @@
 	<body>
 
 		<!-- Navbar Section -->
-		<nav class="navbar navbar-expand-lg">
-		  <div class="container-fluid">
-		    <a class="navbar-brand" href="#" id="logo">HACHIKO</a>
-		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-		      <span class="navbar-toggler-icon"></span>
-		    </button>
+		<nav class="navbar navbar-expand-lg" style="background-color: #c36a2d;">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white" href="#" id="logo">HACHIKO</a>
 
-		    <div class="collapse navbar-collapse" id="navbarNav">
-		      <ul class="navbar-nav ms-auto">
-		        <li class="nav-item ms-auto"><a class="nav-link text-light" aria-current="page" href="#hero">Home</a></li>
-		        <li class="nav-item ms-auto"><a class="nav-link text-light" aria-current="page" href="#feature">Features</a></li>
-		        <li class="nav-item ms-auto"><a class="nav-link text-light" href="#product">Products and Services</a></li>
-		        <li class="nav-item ms-auto"><a class="nav-link text-light" href="#contact">Contact</a></li>
-		      </ul>
-		    </div>
-		  </div>
-		</nav>
+    <!-- Navbar Toggle Button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+      data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapsible Navbar -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link text-white" href="#hero">Home</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#feature">Features</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#product">Products & Services</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
 
 		<!-- Landing Section -->
 		<div id="hero" class="container-fluid py-3 text-#f4f4f4">
@@ -55,43 +61,47 @@
 		</div>
 
 		<!-- Features Section -->
-		<div id="feature" class="text-center p-3">
+		<div id="feature" class="container my-5">
 		  <h2 class="text-center py-2 mt-2">Everything Your Pet Needs, All in One Place!</h2>
-		  
-		  <div class="row justify-content-center">
-		    <div class="col-md-4 mb-4">
-		      <div class="card text-white p-3">
-		        <img src="./images/grooming.jpg" class="img-fluid">
-		        <h3>Pet Grooming Services</h3>
-		        <p>Keep your pets clean and well-groomed with our expert services.</p>
-		      </div>
-		    </div>
 
-		    <div class="col-md-4 mb-4">
-		      <div class="card text-white p-3">
-		        <img src="./images/health.jpg" class="img-fluid">
-		        <h3>Pet Health and Wellness</h3>
-		        <p>Supporting your pet’s health with premium care and wellness essentials.</p>
-		      </div>
+		  <div class="row align-items-center mb-5">
+		    <div class="col-md-6">
+		      <h3>Pet Grooming Services</h3>
+		      <p>Keep your pets clean and well-groomed with our expert services.</p>
 		    </div>
+		    <div class="col-md-6 text-center bg-light image-container">
+		      <img src="./images/grooming.jpg" class="img-fluid">
+		    </div>
+		  </div>
 
-		    <div class="col-md-4 mb-4">
-		      <div class="card text-white p-3">
-		        <img src="./images/toys.jpg" class="img-fluid">
-		        <h3>Pet Accessories and Toys</h3>
-		        <p>Everything your pet needs for fun, comfort, and style.</p>
-		      </div>
+		  <div class="row align-items-center mb-5 flex-md-row-reverse">
+		    <div class="col-md-6">
+		      <h3>Pet Health and Wellness</h3>
+		      <p>Supporting your pet’s health with premium care and wellness essentials.</p>
 		    </div>
-proje		  </div>
+		    <div class="col-md-6 text-center bg-light image-container">
+		      <img src="./images/health.jpg" class="img-fluid">
+		    </div>
+		  </div>
+
+		  <div class="row align-items-center mb-5">
+		    <div class="col-md-6">
+		      <h3>Pet Accessories and Toys</h3>
+		      <p>Everything your pet needs for fun, comfort, and style.</p>
+		    </div>
+		    <div class="col-md-6 text-center bg-light image-container">
+		      <img src="./images/toys.jpg" class="img-fluid">
+		    </div>
+		  </div>
 		</div>
 
 		<!-- Products and Services Section -->
 		<div id="product" class="carousel-container d-flex justify-content-between">
 		  <!-- Carousel -->
-		  <div id="offered-services" class="carousel slide" data-bs-ride="carousel" style="width: 60%;"> <!-- Adjust width for left side -->
+		  <div id="offered-services" class="carousel slide" data-bs-ride="carousel" style="width: 60%;"> 
 		    <div class="carousel-inner">
 		      <div class="carousel-item active">
-		        <img src="./images/bathing.jpg" class="d-block w-100" alt="...">
+		        <img src="./images/bath.jpg" class="d-block w-100" alt="...">
 		      </div>
 		      <div class="carousel-item">
 		        <img src="./images/haircut.jpg" class="d-block w-100" alt="...">
@@ -119,34 +129,45 @@ proje		  </div>
 			  <li class="list-group-item">We offers:</li>
 			  <li class="list-group-item">Bathing and brushing</li>
 			  <li class="list-group-item">Haircuts and trims</li>
-			  <li class="list-group-item">Veterinary check-ups/li>
+			  <li class="list-group-item">Veterinary check-ups</li>
 			  <li class="list-group-item">Vaccinations and preventative care</li>
 			  <li class="list-group-item">Collars, leashes, and harnesses</li>
 			  <li class="list-group-item">Interactive toys and puzzles</li>
 		  </ul>
 		  </div>
-		</div>
+		</div>	
 
 		<!-- Contact Section -->
-		<h2 class="text-center py-2 mt-4">Contact</h2>
-		<div id="contact" class="container-fluid justify-content-center">
-			<div class="row" class="justify-content-center">
-				<div>
-					<a href="https://www.facebook.com/100044186721501/posts/1060896855393195/?_rdr" target="_blank">
-					<img width="40" src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png" class="mx-auto"></a>
-				
-					<a href="https://www.linkedin.com/checkpoint/lg/sign-in-another-account" target="_blank">
-					<img width="40" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" class="mx-auto"></a>
-				
-					<a href="https://gitlab.com/users/sign_in" target="_blank">
-					<img width="40" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/144_Gitlab_logo_logos-512.png" class="mx-auto"></a>
-			
-					<a href="https://github.com/" target="_blank">
-					<img width="40" src="https://banner2.cleanpng.com/20180920/aey/kisspng-scalable-vector-graphics-github-computer-icons-log-github-brand-octacat-social-svg-png-icon-free-down-5ba35d7db54fe5.6273953815374329577427.jpg" class="mx-auto"></a>
-				</div>
-			</div>
-		</div>
+		<h3 class="text-center py-2 mt-2">Contact</h3>
+		<section id="contact" class="container-fluid">
+				<div class="row justify-content-center">
+			    <div class="col-auto">
+			      <a href="https://www.facebook.com/jeziel.manaloto/" target="_blank">
+			        <img width="30" src="images/fb.jpg" class="d-block mx-auto">
+			      </a>
+			    </div>
 
+			    <div class="col-auto">
+			      <a href="https://www.instagram.com/jimanaloto/?next=%2F" target="_blank">
+			        <img width="30" src="images/ig.jpg" class="d-block mx-auto">
+			      </a>
+			    </div>
+
+			    <div class="col-auto">
+			      <a href="https://www.linkedin.com/in/jeziel-manaloto-43803133b/" target="_blank">
+			        <img width="30" src="images/linkedin.jpg" class="d-block mx-auto">
+			      </a>
+			    </div>
+
+			    <div class="col-auto">
+			      <a href="https://github.com/" target="_blank">
+			        <img width="30" src="images/github.png" class="d-block mx-auto pb-3">
+			      </a>
+			    </div>
+			  </div>
+			</section>
+
+		<!-- Footer Section -->
 		<footer id="footer" class="d-flex justify-content-center gap-3">
 			<div>Hachiko</div>
             <div>|</div>
