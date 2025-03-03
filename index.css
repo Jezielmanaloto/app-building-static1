@@ -150,14 +150,6 @@
   }
 }
 
-button {
-  background-color: #e2c275 !important;
-}
-
-button:hover {
-    background-color: #c9a858 !important;
-}
-
 #footer {
   background-color: #c36a2d;
   color: white;
@@ -167,4 +159,12 @@ button:hover {
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
+}
+
+button {
+    background-color: #e2c275 !important;
+}
+
+button:hover {
+    background-color: #c9a858 !important; 
 }
