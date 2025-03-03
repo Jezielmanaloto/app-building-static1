@@ -115,17 +115,6 @@
   border-radius: 10px;
 }
 
-#footer {
-  background-color: #c36a2d;
-  color: white;
-  text-align: center;
-  padding: 1rem 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-}
-
 #contact img {
   transition: transform 0.3s ease-in-out;
 }
@@ -159,4 +148,23 @@
   .product-details {
     text-align: center;
   }
+}
+
+button {
+  background-color: #e2c275 !important;
+}
+
+button:hover {
+    background-color: #c9a858 !important;
+}
+
+#footer {
+  background-color: #c36a2d;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
 }
